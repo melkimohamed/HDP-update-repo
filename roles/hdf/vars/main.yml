@@ -1,0 +1,4 @@
+---
+# vars file for hdf
+hdf_repo: http://public-repo-1.hortonworks.com/HDF/amazonlinux2/3.x/updates/3.3.0.0
+hdf_gpg_key: http://public-repo-1.hortonworks.com/HDF/amazonlinux2/3.x/updates/3.3.0.0/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins

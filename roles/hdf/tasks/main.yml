@@ -1,0 +1,11 @@
+# tasks file for hdf
+---	
+- name: HDF Version - HDF-3.3.0.0
+  yum_repository:
+    name: hdf
+    description: "HDF-3.3.0.0"
+    baseurl: "{{ hdf_repo }}"
+    failovermethod: priority
+    gpgkey: "{{ hdf_gpg_key }}"
+    gpgcheck: yes
+    enabled: yes
