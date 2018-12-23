@@ -1,0 +1,6 @@
+---
+hdp_repo: http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.5.0.0
+hdp_gpg_key: http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.5.0.0/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+hdp_utils_repo: http://public-repo-1.hortonworks.com/HDP-UTILS-1.1.0.21/repos/centos7
+hdp_utils_gpg_key: http://public-repo-1.hortonworks.com/HDP/centos7/2.x/updates/2.5.0.0/RPM-GPG-KEY/RPM-GPG-KEY-Jenkins
+

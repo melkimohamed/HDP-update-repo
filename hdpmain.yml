@@ -1,0 +1,7 @@
+---
+- hosts: webservers
+  sudo: yes
+  roles:
+    - ambari
+    - hdp
+

@@ -1,0 +1,19 @@
+---	
+- name: HDP-2.5.0.0
+  yum_repository:
+    name: hdp
+    description: "HDP-2.5.0.0"
+    baseurl: "{{ hdp_repo }}"
+    failovermethod: priority
+    gpgkey: "{{ hdp_gpg_key }}"
+    gpgcheck: yes
+    enabled: yes	
+- name: HDP-UTILS-1.1.0.21
+  yum_repository:
+    name: HDP-UTILS
+    description: "HDP-UTILS"
+    baseurl: "{{ hdp_utils_repo }}"
+    failovermethod: priority
+    gpgkey: "{{ hdp_utils_gpg_key }}"
+    gpgcheck: yes
+    enabled: yes
