@@ -3,8 +3,8 @@
 #### Features
 
   - Update Ambari repo
-  - update HDP repo
-  - Update HDP UTILS repo
+  - Update HDP repo
+  - Update HDP-UTILS repo
   - Update NIFI repo
 
 #### Requirements
@@ -22,7 +22,7 @@ host3
 
 ### Example deployement
 ```sh
-ansible-playbook main.yml -i listhosts
+ansible-playbook main.yml -i hosts
 ```
 
 
